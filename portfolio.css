@@ -1,0 +1,56 @@
+*{
+    background-color: #111;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+.name
+{
+    font-size: 10rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    filter: drop-shadow(2px 5px yellow);
+    color: yellow;
+}
+.banner
+{
+    background-image: url(https://occ-0-3215-3663.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABQZRHjHGQdEDITx-PgpjBrUeZc-dt_nrMvU_B5bpzuzzH7NvELK_DiMupCWYX74GAe_G668g5F3cAOnpn-pI2jT5VsYsaormucwd.jpg?r=489&quot);
+    background-size: cover;
+    background-position: center center
+    ;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 580px;
+}
+
+.posters
+{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 1% 0.5%;
+}
+.posters::-webkit-scrollbar{
+
+    display: none; 
+}
+.poster{
+    margin: 0% 0.5%;
+    border-radius: 0.4%;
+
+}
+h1{
+  padding-top: 3%;
+  padding-left: 20%;
+  padding-bottom:2% ;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+ }
+ h3
+ {
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.8 rem;
+    padding: 2% 0;
+ }
